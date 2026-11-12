@@ -35,18 +35,18 @@
     name: "Kira Yoshikage - Jojo's BIzarre Adventure",
     category: "Anime"
     price: 1899.00,
-    image: "https://i.pinimg.com/736x/3d/eb/9f/3deb9f52514a734440ced4627b38a3ab.jpg"
+    image: "https://i.pinimg.com/736x/3d/eb/9f/3deb9f52514a734440ced4627b38a3ab.jpg",
     description: "Edição premium - Jojo's Bizarre Aventure Diamond is Unbreakable",
     rating: 5.0,
     reviewsCount: 56
   },
   {
     id: 6,
-    name: "Spider-Man - Marvel Legends Series",
+    name: "Akaza - Kimetsu no Yaiba"
     category: "Marvel",
     price: 279.90,
-    image: "https://images.unsplash.com/photo-1635805737707-575885ab0820?w=400&h=400&fit=crop",
-    description: "Homem-Aranha clássico com teias, mãos intercambiáveis e base. Perfeito para poses dinâmicas.",
+    image: "https://i.pinimg.com/736x/4b/b3/58/4bb35815b3f3c0710865df2d43e28638.jpg",
+    description: "akaza - Castelo Infinito - Demon slayer.",
     rating: 4.7,
     reviewsCount: 154
   },
