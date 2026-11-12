@@ -16,7 +16,7 @@ const PRODUCTS = [
     category: "Dragon Ball",
     price: 349.90,
     image: "hhttps://i.pinimg.com/736x/5a/52/40/5a52400225d489a296a70a739335cc77.jpg",
-    description: "Action figure premium do Homem de Ferro Mark 85, com múltiplos pontos de articulação, efeitos de energia e base de exibição. Escala 1/12.",
+    description: "Action figure premium do Goku Super Saiyajin.",
     rating: 4.8,
     reviewsCount: 127
   },
@@ -26,7 +26,7 @@ const PRODUCTS = [
     category: "Jujutsu Ksen"
     price: 289.90,
     image: "https://i.pinimg.com/736x/da/53/51/da5351ee79360c852d3dfec7bd6946d0.jpg"
-    description: "Figura altamente detalhada inspirada no jogo Batman: Arkham Knight. Inclui capa articulado e acessórios de combate.",
+    description: "Figura altamente detalhada inspirada no anime Jujutsu Kaisen para decoração.",
     rating: 4.6,
     reviewsCount: 89
   },
