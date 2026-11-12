@@ -1,5 +1,17 @@
-{
+/* ===== DADOS INICIAIS (simula banco de produtos) ===== */
+const PRODUCTS = [
+  {
     id: 1,
+    name: "Jotaro Kujo - JoJo's Bizarre Adventure",
+    category: "Anime",
+    price: 429.90,
+    image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&h=400&fit=crop",
+    description: "Jotaro Kujo com pose icônica e Stand Star Platinum. Figura altamente detalhada da linha Figuarts, perfeita para fãs de JoJo.",
+    rating: 4.9,
+    reviewsCount: 186
+  },
+  {
+    id: 2,
     name: "Homem de Ferro Mark 85 - Marvel Legends",
     category: "Marvel",
     price: 349.90,
@@ -9,7 +21,7 @@
     reviewsCount: 127
   },
   {
-    id: 2,
+    id: 3,
     name: "Batman Arkham Knight - McFarlane Toys",
     category: "DC",
     price: 289.90,
@@ -19,7 +31,7 @@
     reviewsCount: 89
   },
   {
-    id: 3,
+    id: 4,
     name: "Goku Super Saiyajin - Bandai SH Figuarts",
     category: "Anime",
     price: 459.00,
@@ -29,7 +41,7 @@
     reviewsCount: 203
   },
   {
-    id: 4,
+    id: 5,
     name: "Darth Vader - Hot Toys 1/6",
     category: "Star Wars",
     price: 1899.00,
@@ -39,7 +51,7 @@
     reviewsCount: 56
   },
   {
-    id: 5,
+    id: 6,
     name: "Spider-Man - Marvel Legends Series",
     category: "Marvel",
     price: 279.90,
@@ -49,17 +61,17 @@
     reviewsCount: 154
   },
   {
-    id: 6,
+    id: 7,
     name: "Naruto Uzumaki - Figuarts ZERO",
     category: "Anime",
     price: 389.00,
-    image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1613376023733-0fb8673ba2c4?w=400&h=400&fit=crop",
     description: "Naruto em pose de batalha com efeito de Rasengan. Detalhes excepcionais da linha Figuarts ZERO.",
     rating: 4.5,
     reviewsCount: 78
   },
   {
-    id: 7,
+    id: 8,
     name: "Coringa - The Dark Knight Trilogy",
     category: "DC",
     price: 329.90,
@@ -69,7 +81,7 @@
     reviewsCount: 112
   },
   {
-    id: 8,
+    id: 9,
     name: "Link - Zelda Breath of the Wild",
     category: "Games",
     price: 419.00,
@@ -79,7 +91,7 @@
     reviewsCount: 91
   },
   {
-    id: 9,
+    id: 10,
     name: "Wolverine - Marvel Legends",
     category: "Marvel",
     price: 259.90,
@@ -89,34 +101,44 @@
     reviewsCount: 67
   },
   {
-    id: 10,
-    name: "Stormtrooper - Black Series",
-    category: "Star Wars",
-    price: 219.90,
-    image: "https://images.unsplash.com/photo-1509248961158-e54f6932459c?w=400&h=400&fit=crop",
-    description: "Stormtrooper clássico da linha Black Series. Armadura com detalhes realistas e blaster incluso.",
-    rating: 4.4,
-    reviewsCount: 143
-  },
-  {
     id: 11,
-    name: "Vegeta Super Saiyajin Blue",
+    name: "Luffy Gear 5 - One Piece",
     category: "Anime",
-    price: 479.00,
-    image: "https://images.unsplash.com/photo-1613376023733-0fb8673ba2c4?w=400&h=400&fit=crop",
-    description: "Vegeta em Super Saiyajin Blue. Efeitos de energia e rosto com expressão de batalha intensa.",
-    rating: 4.7,
-    reviewsCount: 85
+    price: 489.00,
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=400&fit=crop",
+    description: "Monkey D. Luffy em forma Gear 5. Efeitos de nuvens e expressão animada. Figura premium para colecionadores de One Piece.",
+    rating: 4.8,
+    reviewsCount: 142
   },
   {
     id: 12,
     name: "Kratos - God of War Ragnarök",
     category: "Games",
     price: 549.00,
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=400&fit=crop",
+    image: "https://images.unsplash.com/photo-1509248961158-e54f6932459c?w=400&h=400&fit=crop",
     description: "Kratos com o Machado Leviatã e escudo. Escala premium, detalhes de cicatrizes e texturas realistas.",
     rating: 4.9,
     reviewsCount: 72
+  },
+  {
+    id: 13,
+    name: "Vegeta Super Saiyajin Blue",
+    category: "Anime",
+    price: 479.00,
+    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=400&fit=crop",
+    description: "Vegeta em Super Saiyajin Blue. Efeitos de energia e rosto com expressão de batalha intensa.",
+    rating: 4.7,
+    reviewsCount: 85
+  },
+  {
+    id: 14,
+    name: "Stormtrooper - Black Series",
+    category: "Star Wars",
+    price: 219.90,
+    image: "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?w=400&h=400&fit=crop",
+    description: "Stormtrooper clássico da linha Black Series. Armadura com detalhes realistas e blaster incluso.",
+    rating: 4.4,
+    reviewsCount: 143
   }
 ];
 
