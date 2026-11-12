@@ -63,7 +63,7 @@
   {
     id: 8,
     name: "Sebastia & Ciel",
-    category: "Anime"
+    category: "Anime",
     price: 329.90,
     image: "https://i.pinimg.com/736x/1e/cb/1c/1ecb1cc4effdd57d33b23f56b2e437dc.jpg",
     description: "Sebastian & Ciel - Black Butler",
