@@ -55,7 +55,7 @@
     name: "Hanako-kun Toilet-bound Hanako-kun",
     category: "Anime",
     price: 150.00
-    image: "hhttps://i.pinimg.com/736x/3d/fa/ef/3dfaefa36b81a871cad6e0c268236b61.jpg",
+    image: "https://i.pinimg.com/736x/3d/fa/ef/3dfaefa36b81a871cad6e0c268236b61.jpg",
     description: "Figure Hanako com base adicional",
     rating: 4.5,
     reviewsCount: 78
