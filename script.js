@@ -52,11 +52,11 @@
   },
   {
     id: 7,
-    name: "Naruto Uzumaki - Figuarts ZERO",
+    name: "Hanako-kun Toilet-bound Hanako-kun",
     category: "Anime",
     price: 389.00,
-    image: "https://images.unsplash.com/photo-1613376023733-0fb8673ba2c4?w=400&h=400&fit=crop",
-    description: "Naruto em pose de batalha com efeito de Rasengan. Detalhes excepcionais da linha Figuarts ZERO.",
+    image: "hhttps://i.pinimg.com/736x/3d/fa/ef/3dfaefa36b81a871cad6e0c268236b61.jpg",
+    description: "Figure Hanako com base adicional",
     rating: 4.5,
     reviewsCount: 78
   },
