@@ -43,7 +43,7 @@
   {
     id: 6,
     name: "Akaza - Kimetsu no Yaiba"
-    category: "Marvel",
+    category: "Anime"
     price: 279.90,
     image: "https://i.pinimg.com/736x/4b/b3/58/4bb35815b3f3c0710865df2d43e28638.jpg",
     description: "akaza - Castelo Infinito - Demon slayer.",
