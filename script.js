@@ -34,7 +34,7 @@
     id: 5,
     name: "Kira Yoshikage - Jojo's BIzarre Adventure",
     category: "Anime",
-    price: 1899.00,
+    price: 1020.00
     image: "https://i.pinimg.com/736x/3d/eb/9f/3deb9f52514a734440ced4627b38a3ab.jpg",
     description: "Edição premium - Jojo's Bizarre Aventure Diamond is Unbreakable",
     rating: 5.0,
@@ -54,7 +54,7 @@
     id: 7,
     name: "Hanako-kun Toilet-bound Hanako-kun",
     category: "Anime",
-    price: 389.00,
+    price: 150.00
     image: "hhttps://i.pinimg.com/736x/3d/fa/ef/3dfaefa36b81a871cad6e0c268236b61.jpg",
     description: "Figure Hanako com base adicional",
     rating: 4.5,
