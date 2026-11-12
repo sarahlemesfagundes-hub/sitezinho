@@ -25,7 +25,7 @@ const PRODUCTS = [
     name: "Satou Gojo"
     category: "Jujutsu Ksen"
     price: 289.90,
-    image: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=400&h=400&fit=crop",
+    image: "https://i.pinimg.com/736x/da/53/51/da5351ee79360c852d3dfec7bd6946d0.jpg"
     description: "Figura altamente detalhada inspirada no jogo Batman: Arkham Knight. Inclui capa articulado e acessórios de combate.",
     rating: 4.6,
     reviewsCount: 89
