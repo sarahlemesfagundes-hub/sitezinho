@@ -13,7 +13,7 @@ const PRODUCTS = [
   {
     id: 2,
     name: "Goku Super Saiyan",
-    category: "Dragon Ball",
+    category: "Anime"
     price: 349.90,
     image: "hhttps://i.pinimg.com/736x/5a/52/40/5a52400225d489a296a70a739335cc77.jpg",
     description: "Action figure premium do Goku Super Saiyajin.",
@@ -23,7 +23,7 @@ const PRODUCTS = [
   {
     id: 3,
     name: "Satou Gojo"
-    category: "Jujutsu Ksen"
+    category: "Anime"
     price: 289.90,
     image: "https://i.pinimg.com/736x/da/53/51/da5351ee79360c852d3dfec7bd6946d0.jpg"
     description: "Figura altamente detalhada inspirada no anime Jujutsu Kaisen para decoração.",
@@ -32,7 +32,7 @@ const PRODUCTS = [
   },
   {
     id: 4,
-    name: "Goku Super Saiyajin - Bandai SH Figuarts",
+    name: "Goku Super Saiyajin - Dagon Ball"
     category: "Anime",
     price: 459.00,
     image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=400&fit=crop",
