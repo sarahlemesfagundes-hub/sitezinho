@@ -33,7 +33,7 @@
   {
     id: 5,
     name: "Kira Yoshikage - Jojo's BIzarre Adventure",
-    category: "Anime"
+    category: "Anime",
     price: 1899.00,
     image: "https://i.pinimg.com/736x/3d/eb/9f/3deb9f52514a734440ced4627b38a3ab.jpg",
     description: "Edição premium - Jojo's Bizarre Aventure Diamond is Unbreakable",
