@@ -5,25 +5,25 @@ const PRODUCTS = [
     name: "Jotaro Kujo - JoJo's Bizarre Adventure",
     category: "Anime",
     price: 429.90,
-    image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=400&h=400&fit=crop",
-    description: "Jotaro Kujo com pose icônica e Stand Star Platinum. Figura altamente detalhada da linha Figuarts, perfeita para fãs de JoJo.",
+    image: "https://i.pinimg.com/1200x/61/df/39/61df39b47e6fe416dc3d5e53f7728acc.jpg",
+    description: "Jotaro Kujo com pose icônica e Stand Star Platinum. Figura altamente detalhada da linha Figuarts, perfeita para fãs de JoJo:3",
     rating: 4.9,
     reviewsCount: 186
   },
   {
     id: 2,
-    name: "Homem de Ferro Mark 85 - Marvel Legends",
-    category: "Marvel",
+    name: "Goku Super Saiyan",
+    category: "Dragon Ball",
     price: 349.90,
-    image: "https://images.unsplash.com/photo-1608889476518-738c9b1dcb40?w=400&h=400&fit=crop",
+    image: "hhttps://i.pinimg.com/736x/5a/52/40/5a52400225d489a296a70a739335cc77.jpg",
     description: "Action figure premium do Homem de Ferro Mark 85, com múltiplos pontos de articulação, efeitos de energia e base de exibição. Escala 1/12.",
     rating: 4.8,
     reviewsCount: 127
   },
   {
     id: 3,
-    name: "Batman Arkham Knight - McFarlane Toys",
-    category: "DC",
+    name: "Satou Gojo"
+    category: "Jujutsu Ksen"
     price: 289.90,
     image: "https://images.unsplash.com/photo-1531259683007-016a7b628fc3?w=400&h=400&fit=crop",
     description: "Figura altamente detalhada inspirada no jogo Batman: Arkham Knight. Inclui capa articulado e acessórios de combate.",
