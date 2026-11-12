@@ -1,6 +1,4 @@
-/* ===== DADOS INICIAIS (simula banco de produtos) ===== */
-const PRODUCTS = []
-  
+/* ===== DADOS INICIAIS (simula banco de produtos) ===== */  
     const PRODUCTS = [
   {
     id: 1,
