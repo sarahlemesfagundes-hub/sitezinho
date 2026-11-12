@@ -62,11 +62,11 @@
   },
   {
     id: 8,
-    name: "Coringa - The Dark Knight Trilogy",
+    name: "Sebastia & Ciel"
     category: "DC",
     price: 329.90,
-    image: "https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?w=400&h=400&fit=crop",
-    description: "Coringa inspirado na trilogia de Christopher Nolan. Expressão icônica e acessórios de cards.",
+    image: "https://i.pinimg.com/736x/1e/cb/1c/1ecb1cc4effdd57d33b23f56b2e437dc.jpg",
+    description: "Sebastian & Ciel - Black Butler",
     rating: 4.8,
     reviewsCount: 112
   },
