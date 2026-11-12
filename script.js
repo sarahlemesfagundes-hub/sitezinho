@@ -32,11 +32,11 @@
   },
   {
     id: 5,
-    name: "Darth Vader - Hot Toys 1/6",
-    category: "Star Wars",
+    name: "Kira Yoshikage - Jojo's BIzarre Adventure",
+    category: "Anime"
     price: 1899.00,
-    image: "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?w=400&h=400&fit=crop",
-    description: "Edição premium Hot Toys 1/6 do Darth Vader. LED nos olhos, sabre de luz iluminado e múltiplos pares de mãos.",
+    image: "https://i.pinimg.com/736x/3d/eb/9f/3deb9f52514a734440ced4627b38a3ab.jpg"
+    description: "Edição premium - Jojo's Bizarre Aventure Diamond is Unbreakable",
     rating: 5.0,
     reviewsCount: 56
   },
