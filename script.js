@@ -1,44 +1,36 @@
 /* ===== DADOS INICIAIS (simula banco de produtos) ===== */
-const PRODUCTS = [
+const PRODUCTS = []
+  
+    const PRODUCTS = [
   {
     id: 1,
     name: "Jotaro Kujo - JoJo's Bizarre Adventure",
     category: "Anime",
     price: 429.90,
     image: "https://i.pinimg.com/1200x/61/df/39/61df39b47e6fe416dc3d5e53f7728acc.jpg",
-    description: "Jotaro Kujo com pose icônica e Stand Star Platinum. Figura altamente detalhada da linha Figuarts, perfeita para fãs de JoJo:3",
+    description: "Jotaro Kujo com pose iconica e Stand Star Platinum. Figura detalhada da linha Figuarts.",
     rating: 4.9,
     reviewsCount: 186
   },
   {
     id: 2,
     name: "Goku Super Saiyan",
-    category: "Anime"
+    category: "Anime",
     price: 349.90,
-    image: "hhttps://i.pinimg.com/736x/5a/52/40/5a52400225d489a296a70a739335cc77.jpg",
+    image: "https://i.pinimg.com/736x/5a/52/40/5a52400225d489a296a70a739335cc77.jpg",
     description: "Action figure premium do Goku Super Saiyajin.",
     rating: 4.8,
     reviewsCount: 127
   },
   {
     id: 3,
-    name: "Satou Gojo"
-    category: "Anime"
+    name: "Satoru Gojo",
+    category: "Anime",
     price: 289.90,
-    image: "https://i.pinimg.com/736x/da/53/51/da5351ee79360c852d3dfec7bd6946d0.jpg"
-    description: "Figura altamente detalhada inspirada no anime Jujutsu Kaisen para decoração.",
+    image: "https://i.pinimg.com/736x/da/53/51/da5351ee79360c852d3dfec7bd6946d0.jpg",
+    description: "Figura altamente detalhada inspirada no anime Jujutsu Kaisen.",
     rating: 4.6,
     reviewsCount: 89
-  },
-  {
-    id: 4,
-    name: "Goku Super Saiyajin - Dagon Ball"
-    category: "Anime",
-    price: 459.00,
-    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=400&fit=crop",
-    description: "Goku em forma Super Saiyajin com efeitos de energia intercambiáveis. Qualidade Bandai SH Figuarts, altamente posável.",
-    rating: 4.9,
-    reviewsCount: 203
   },
   {
     id: 5,
