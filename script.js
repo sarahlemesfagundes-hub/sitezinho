@@ -72,21 +72,21 @@
   },
   {
     id: 9,
-    name: "Link - Zelda Breath of the Wild",
+    name: "Nanami - Jujutu Kasen",
     category: "Games",
     price: 419.00,
-    image: "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?w=400&h=400&fit=crop",
-    description: "Link com Master Sword e escudo Hylian. Escala 1/7, pintura premium e base temática de Hyrule.",
+    image: "https://i.pinimg.com/736x/d2/e7/74/d2e774400884188d4afb3239755dc6de.jpg",
+    description: "Nanami Kento, pintura premium e base temática de Hyrule.",
     rating: 4.9,
     reviewsCount: 91
   },
   {
     id: 10,
-    name: "Wolverine - Marvel Legends",
-    category: "Marvel",
+    name: "Eren Yeager - Attack on Titan",
+    category: "Anime",
     price: 259.90,
-    image: "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?w=400&h=400&fit=crop",
-    description: "Wolverine clássico com garras metálicas intercambiáveis e múltiplas cabeças. Altamente articulado.",
+    image: "https://i.pinimg.com/736x/83/9d/8d/839d8de10700428357f7d9f6edcade95.jpg",
+    description: "Action Figure Eren para decoração",
     rating: 4.6,
     reviewsCount: 67
   },
@@ -95,7 +95,7 @@
     name: "Luffy Gear 5 - One Piece",
     category: "Anime",
     price: 489.00,
-    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=400&fit=crop",
+    image: "https://i.pinimg.com/736x/fe/a7/6e/fea76e982c62d6d0f727b8ba944045b0.jpg",
     description: "Monkey D. Luffy em forma Gear 5. Efeitos de nuvens e expressão animada. Figura premium para colecionadores de One Piece.",
     rating: 4.8,
     reviewsCount: 142
