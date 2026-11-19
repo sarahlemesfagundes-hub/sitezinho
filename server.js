@@ -8,8 +8,6 @@ const path = require('path');
 const app = express();
 app.use(cors());
 app.use(express.json());
-
-// Faz o servidor entregar o seu index.html, style.css e script.js da mesma pasta
 app.use(express.static(__dirname));
 
 let db;
@@ -71,9 +69,9 @@ async function initDB() {
       [9, "Nanami - Jujutu Kasen", "Games", 419.00, "https://i.pinimg.com/736x/d2/e7/74/d2e774400884188d4afb3239755dc6de.jpg", "Nanami Kento, pintura premium e base temática de Hyrule.", 4.9, 91],
       [10, "Eren Yeager - Attack on Titan", "Anime", 259.90, "https://i.pinimg.com/736x/83/9d/8d/839d8de10700428357f7d9f6edcade95.jpg", "Action Figure Eren para decoração", 4.6, 67],
       [11, "Luffy Gear 5 - One Piece", "Anime", 350.00, "https://i.pinimg.com/736x/fe/a7/6e/fea76e982c62d6d0f727b8ba944045b0.jpg", "Monkey D. Luffy em forma Gear 5. Efeitos de nuvens e expressão animada. Figura premium para colecionadores de One Piece.", 4.8, 142],
-      [12, "Inuyasha", "Anime", 549.00, "https://i.pinimg.com/736x/9f/e1/54/9fe154d4ae18c49eb3429c53fe119ca2.jpg", "Inuyasha com katana. Escala premium, detalhes de cicatrizes e texturas realistas.", 4.9, 72],
+      [12, "Inuyasha", "Anime", 230.00, "https://i.pinimg.com/736x/9f/e1/54/9fe154d4ae18c49eb3429c53fe119ca2.jpg", "Inuyasha com katana. Escala premium, detalhes de cicatrizes e texturas realistas.", 4.9, 72],
       [13, "Vegeta Super Saiyajin Blue", "Anime", 170.00, "https://i.pinimg.com/1200x/78/a4/e9/78a4e9d6a878ec67a6f89a5e4f22248c.jpg", "Vegeta em Super Saiyajin Blue. Efeitos de energia e rosto com expressão de batalha intensa.", 4.7, 85],
-      [14, "Stormtrooper - Black Series", "Star Wars", 219.90, "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?w=400&h=400&fit=crop", "Stormtrooper clássico da linha Black Series. Armadura com detalhes realistas e blaster incluso.", 4.4, 143]
+      [14, "Naruto & Sasuke - Naruto", "Anime", 219.90, "https://i.pinimg.com/736x/1b/d2/99/1bd299d6c7cd65468be72794721c9efd.jpg", "Naruto clássico. Bem detalhado.", 4.4, 143]
     ];
 
     const stmt = await db.prepare('INSERT INTO products VALUES (?, ?, ?, ?, ?, ?, ?, ?)');
@@ -134,7 +132,6 @@ app.post('/api/orders', async (req, res) => {
   res.status(201).json({ message: 'Pedido registrado com sucesso!' });
 });
 
-// Abre o index.html quando acessar o site
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
