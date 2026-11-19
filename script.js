@@ -114,8 +114,8 @@
     id: 13,
     name: "Vegeta Super Saiyajin Blue",
     category: "Anime",
-    price: 479.00,
-    image: "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&h=400&fit=crop",
+    price: 170.00,
+    image: "https://i.pinimg.com/1200x/78/a4/e9/78a4e9d6a878ec67a6f89a5e4f22248c.jpg",
     description: "Vegeta em Super Saiyajin Blue. Efeitos de energia e rosto com expressão de batalha intensa.",
     rating: 4.7,
     reviewsCount: 85
