@@ -94,7 +94,7 @@
     id: 11,
     name: "Luffy Gear 5 - One Piece",
     category: "Anime",
-    price: 489.00,
+    price: 350.00,
     image: "https://i.pinimg.com/736x/fe/a7/6e/fea76e982c62d6d0f727b8ba944045b0.jpg",
     description: "Monkey D. Luffy em forma Gear 5. Efeitos de nuvens e expressão animada. Figura premium para colecionadores de One Piece.",
     rating: 4.8,
