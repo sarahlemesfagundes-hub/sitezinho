@@ -1,136 +1,5 @@
-/* ===== DADOS INICIAIS (simula banco de produtos) ===== */  
-    const PRODUCTS = [
-  {
-    id: 1,
-    name: "Jotaro Kujo - JoJo's Bizarre Adventure",
-    category: "Anime",
-    price: 429.90,
-    image: "https://i.pinimg.com/1200x/61/df/39/61df39b47e6fe416dc3d5e53f7728acc.jpg",
-    description: "Jotaro Kujo com pose iconica e Stand Star Platinum. Figura detalhada da linha Figuarts.",
-    rating: 4.9,
-    reviewsCount: 186
-  },
-  {
-    id: 2,
-    name: "Goku Super Saiyan",
-    category: "Anime",
-    price: 349.90,
-    image: "https://i.pinimg.com/736x/5a/52/40/5a52400225d489a296a70a739335cc77.jpg",
-    description: "Action figure premium do Goku Super Saiyajin.",
-    rating: 4.8,
-    reviewsCount: 127
-  },
-  {
-    id: 3,
-    name: "Satoru Gojo",
-    category: "Anime",
-    price: 289.90,
-    image: "https://i.pinimg.com/736x/da/53/51/da5351ee79360c852d3dfec7bd6946d0.jpg",
-    description: "Figura altamente detalhada inspirada no anime Jujutsu Kaisen.",
-    rating: 4.6,
-    reviewsCount: 89
-  },
-  {
-    id: 5,
-    name: "Kira Yoshikage - Jojo's BIzarre Adventure",
-    category: "Anime",
-    price: 1020.00,
-    image: "https://i.pinimg.com/736x/3d/eb/9f/3deb9f52514a734440ced4627b38a3ab.jpg",
-    description: "Edição premium - Jojo's Bizarre Aventure Diamond is Unbreakable",
-    rating: 5.0,
-    reviewsCount: 56
-  },
-  {
-    id: 6,
-    name: "Akaza - Kimetsu no Yaiba",
-    category: "Anime",
-    price: 279.90,
-    image: "https://i.pinimg.com/736x/4b/b3/58/4bb35815b3f3c0710865df2d43e28638.jpg",
-    description: "akaza - Castelo Infinito - Demon slayer.",
-    rating: 4.7,
-    reviewsCount: 154
-  },
-  {
-    id: 7,
-    name: "Hanako-kun Toilet-bound Hanako-kun",
-    category: "Anime",
-    price: 150.00,
-    image: "https://i.pinimg.com/736x/3d/fa/ef/3dfaefa36b81a871cad6e0c268236b61.jpg",
-    description: "Figure Hanako com base adicional",
-    rating: 4.5,
-    reviewsCount: 78
-  },
-  {
-    id: 8,
-    name: "Sebastia & Ciel",
-    category: "Anime",
-    price: 329.90,
-    image: "https://i.pinimg.com/736x/1e/cb/1c/1ecb1cc4effdd57d33b23f56b2e437dc.jpg",
-    description: "Sebastian & Ciel - Black Butler",
-    rating: 4.8,
-    reviewsCount: 112
-  },
-  {
-    id: 9,
-    name: "Nanami - Jujutu Kasen",
-    category: "Games",
-    price: 419.00,
-    image: "https://i.pinimg.com/736x/d2/e7/74/d2e774400884188d4afb3239755dc6de.jpg",
-    description: "Nanami Kento, pintura premium e base temática de Hyrule.",
-    rating: 4.9,
-    reviewsCount: 91
-  },
-  {
-    id: 10,
-    name: "Eren Yeager - Attack on Titan",
-    category: "Anime",
-    price: 259.90,
-    image: "https://i.pinimg.com/736x/83/9d/8d/839d8de10700428357f7d9f6edcade95.jpg",
-    description: "Action Figure Eren para decoração",
-    rating: 4.6,
-    reviewsCount: 67
-  },
-  {
-    id: 11,
-    name: "Luffy Gear 5 - One Piece",
-    category: "Anime",
-    price: 350.00,
-    image: "https://i.pinimg.com/736x/fe/a7/6e/fea76e982c62d6d0f727b8ba944045b0.jpg",
-    description: "Monkey D. Luffy em forma Gear 5. Efeitos de nuvens e expressão animada. Figura premium para colecionadores de One Piece.",
-    rating: 4.8,
-    reviewsCount: 142
-  },
-  {
-    id: 12,
-    name: "Inuyasha",
-    category: "Anime",
-    price: 230.00,
-    image: "https://i.pinimg.com/736x/9f/e1/54/9fe154d4ae18c49eb3429c53fe119ca2.jpg",
-    description: "Inuyasha com katana. Escala premium, detalhes de cicatrizes e texturas realistas.",
-    rating: 4.9,
-    reviewsCount: 72
-  },
-  {
-    id: 13,
-    name: "Vegeta Super Saiyajin Blue",
-    category: "Anime",
-    price: 170.00,
-    image: "https://i.pinimg.com/1200x/78/a4/e9/78a4e9d6a878ec67a6f89a5e4f22248c.jpg",
-    description: "Vegeta em Super Saiyajin Blue. Efeitos de energia e rosto com expressão de batalha intensa.",
-    rating: 4.7,
-    reviewsCount: 85
-  },
-  {
-    id: 14,
-    name: "Naruto & Sasuke - Naruto",
-    category: "Anime",
-    price: 219.90,
-    image: "https://i.pinimg.com/736x/1b/d2/99/1bd299d6c7cd65468be72794721c9efd.jpg",
-    description: "Naruto clássico. Bem detalhado.",
-    rating: 4.4,
-    reviewsCount: 143
-  }
-];
+const API_URL = "/api";
+let PRODUCTS = [];
 
 /* ===== ESTADO DA APLICAÇÃO ===== */
 let currentUser = null;
@@ -142,27 +11,7 @@ let searchTerm = "";
 let minPrice = null;
 let maxPrice = null;
 
-/* ===== UTILITÁRIOS DE STORAGE (simula banco de dados) ===== */
-function getUsers() {
-  return JSON.parse(localStorage.getItem("af_users") || "[]");
-}
-
-function saveUsers(users) {
-  localStorage.setItem("af_users", JSON.stringify(users));
-}
-
-function getReviews(productId) {
-  const all = JSON.parse(localStorage.getItem("af_reviews") || "{}");
-  return all[productId] || [];
-}
-
-function saveReview(productId, review) {
-  const all = JSON.parse(localStorage.getItem("af_reviews") || "{}");
-  if (!all[productId]) all[productId] = [];
-  all[productId].unshift(review);
-  localStorage.setItem("af_reviews", JSON.stringify(all));
-}
-
+/* ===== UTILITÁRIOS DE SESSÃO E CARRINHO ===== */
 function getSession() {
   return JSON.parse(localStorage.getItem("af_session") || "null");
 }
@@ -188,11 +37,19 @@ function saveCart(c) {
 }
 
 /* ===== INICIALIZAÇÃO ===== */
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
   currentUser = getSession();
   cart = getCart();
   updateUserUI();
   updateCartBadge();
+
+  try {
+    const res = await fetch(`${API_URL}/products`);
+    PRODUCTS = await res.json();
+  } catch (err) {
+    showToast("Erro ao carregar produtos do servidor.");
+  }
+
   renderProducts();
   setupEventListeners();
 });
@@ -240,7 +97,7 @@ function showHome() {
   window.scrollTo(0, 0);
 }
 
-function showProduct(id) {
+async function showProduct(id) {
   currentProductId = id;
   const product = PRODUCTS.find(p => p.id === id);
   if (!product) return;
@@ -249,7 +106,9 @@ function showProduct(id) {
   document.getElementById("cartSection").classList.add("hidden");
   document.getElementById("productSection").classList.remove("hidden");
 
-  const reviews = getReviews(id);
+  const res = await fetch(`${API_URL}/reviews/${id}`);
+  const reviews = await res.json();
+
   const avgRating = reviews.length
     ? (reviews.reduce((s, r) => s + r.rating, 0) / reviews.length).toFixed(1)
     : product.rating;
@@ -273,7 +132,7 @@ function showProduct(id) {
     </div>
   `;
 
-  renderReviews(id);
+  renderReviewsList(reviews);
   updateReviewFormUI();
   window.scrollTo(0, 0);
 }
@@ -381,26 +240,42 @@ function renderCart() {
         <span style="color:#666;font-size:0.9rem">Total</span>
         <div class="cart-total-value">${formatPrice(total)}</div>
       </div>
-      <button class="btn-primary" onclick="checkout()">Finalizar compra</button>
+      <button class="btn-primary" onclick="checkout(${total})">Finalizar compra</button>
     </div>
   `;
 }
 
-function checkout() {
+async function checkout(total) {
   if (!currentUser) {
     showToast("Faça login para finalizar a compra");
     openAuthModal();
     return;
   }
-  showToast("Pedido realizado com sucesso! (simulação)");
+
+  await fetch(`${API_URL}/orders`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      userEmail: currentUser.email,
+      items: cart,
+      total: total
+    })
+  });
+
+  showToast("Pedido salvo no banco com sucesso!");
   cart = [];
   saveCart(cart);
   renderCart();
 }
 
 /* ===== AVALIAÇÕES ===== */
-function renderReviews(productId) {
-  const reviews = getReviews(productId);
+async function loadAndRenderReviews(productId) {
+  const res = await fetch(`${API_URL}/reviews/${productId}`);
+  const reviews = await res.json();
+  renderReviewsList(reviews);
+}
+
+function renderReviewsList(reviews) {
   const list = document.getElementById("reviewsList");
 
   if (reviews.length === 0) {
@@ -452,26 +327,31 @@ function switchAuthTab(tab) {
   document.getElementById("registerForm").classList.toggle("hidden", tab !== "register");
 }
 
-function handleLogin(e) {
+async function handleLogin(e) {
   e.preventDefault();
   const email = document.getElementById("loginEmail").value.trim().toLowerCase();
   const password = document.getElementById("loginPassword").value;
-  const users = getUsers();
-  const user = users.find(u => u.email === email && u.password === password);
 
-  if (!user) {
-    document.getElementById("loginError").textContent = "E-mail ou senha incorretos.";
+  const res = await fetch(`${API_URL}/login`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email, password })
+  });
+  const data = await res.json();
+
+  if (!res.ok) {
+    document.getElementById("loginError").textContent = data.error;
     return;
   }
 
-  setSession({ name: user.name, email: user.email });
+  setSession(data);
   updateUserUI();
   updateReviewFormUI();
   closeAuthModal();
-  showToast(`Bem-vindo de volta, ${user.name.split(" ")[0]}!`);
+  showToast(`Bem-vindo de volta, ${data.name.split(" ")[0]}!`);
 }
 
-function handleRegister(e) {
+async function handleRegister(e) {
   e.preventDefault();
   const name = document.getElementById("registerName").value.trim();
   const email = document.getElementById("registerEmail").value.trim().toLowerCase();
@@ -482,15 +362,19 @@ function handleRegister(e) {
     return;
   }
 
-  const users = getUsers();
-  if (users.some(u => u.email === email)) {
-    document.getElementById("registerError").textContent = "Este e-mail já está cadastrado.";
+  const res = await fetch(`${API_URL}/register`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ name, email, password })
+  });
+  const data = await res.json();
+
+  if (!res.ok) {
+    document.getElementById("registerError").textContent = data.error;
     return;
   }
 
-  users.push({ name, email, password });
-  saveUsers(users);
-  setSession({ name, email });
+  setSession(data);
   updateUserUI();
   updateReviewFormUI();
   closeAuthModal();
@@ -506,7 +390,6 @@ function handleLogout() {
 
 /* ===== EVENT LISTENERS ===== */
 function setupEventListeners() {
-  // Pesquisa
   document.getElementById("searchBtn").addEventListener("click", () => {
     searchTerm = document.getElementById("searchInput").value.trim().toLowerCase();
     renderProducts();
@@ -520,7 +403,6 @@ function setupEventListeners() {
     }
   });
 
-  // Filtro de preço
   document.getElementById("applyPriceFilter").addEventListener("click", () => {
     const min = document.getElementById("minPrice").value;
     const max = document.getElementById("maxPrice").value;
@@ -541,7 +423,6 @@ function setupEventListeners() {
     renderProducts();
   });
 
-  // Categorias
   document.getElementById("categoryPills").addEventListener("click", (e) => {
     if (e.target.classList.contains("pill")) {
       activeCategory = e.target.dataset.cat;
@@ -551,10 +432,8 @@ function setupEventListeners() {
     }
   });
 
-  // Carrinho
   document.getElementById("cartBtn").addEventListener("click", showCart);
 
-  // Usuário
   document.getElementById("userBtn").addEventListener("click", () => {
     if (currentUser) {
       if (confirm(`Olá, ${currentUser.name}!\nDeseja sair da conta?`)) {
@@ -565,7 +444,6 @@ function setupEventListeners() {
     }
   });
 
-  // Modal auth
   document.getElementById("closeAuthModal").addEventListener("click", closeAuthModal);
   document.getElementById("authModal").addEventListener("click", (e) => {
     if (e.target.id === "authModal") closeAuthModal();
@@ -578,7 +456,6 @@ function setupEventListeners() {
   document.getElementById("loginForm").addEventListener("submit", handleLogin);
   document.getElementById("registerForm").addEventListener("submit", handleRegister);
 
-  // Estrelas de avaliação
   document.getElementById("starsInput").addEventListener("click", (e) => {
     if (e.target.dataset.star) {
       selectedRating = parseInt(e.target.dataset.star);
@@ -588,8 +465,7 @@ function setupEventListeners() {
     }
   });
 
-  // Enviar avaliação
-  document.getElementById("submitReview").addEventListener("click", () => {
+  document.getElementById("submitReview").addEventListener("click", async () => {
     if (!currentUser) {
       showToast("Faça login para avaliar");
       openAuthModal();
@@ -606,17 +482,23 @@ function setupEventListeners() {
     }
 
     const review = {
+      productId: currentProductId,
       author: currentUser.name,
       rating: selectedRating,
       text,
       date: new Date().toLocaleDateString("pt-BR")
     };
 
-    saveReview(currentProductId, review);
+    await fetch(`${API_URL}/reviews`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(review)
+    });
+
     document.getElementById("reviewText").value = "";
     selectedRating = 0;
     document.querySelectorAll("#starsInput span").forEach(s => s.classList.remove("active"));
-    renderReviews(currentProductId);
+    await loadAndRenderReviews(currentProductId);
     showToast("Avaliação enviada! Obrigado");
   });
 }
