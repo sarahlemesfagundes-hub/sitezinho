@@ -104,7 +104,7 @@
     id: 12,
     name: "Inuyasha",
     category: "Anime",
-    price: 549.00,
+    price: 230.00,
     image: "https://i.pinimg.com/736x/9f/e1/54/9fe154d4ae18c49eb3429c53fe119ca2.jpg",
     description: "Inuyasha com katana. Escala premium, detalhes de cicatrizes e texturas realistas.",
     rating: 4.9,
@@ -122,11 +122,11 @@
   },
   {
     id: 14,
-    name: "Stormtrooper - Black Series",
-    category: "Star Wars",
+    name: "Naruto & Sasuke - Naruto",
+    category: "Anime",
     price: 219.90,
-    image: "https://images.unsplash.com/photo-1472457897821-70d3819a0e24?w=400&h=400&fit=crop",
-    description: "Stormtrooper clássico da linha Black Series. Armadura com detalhes realistas e blaster incluso.",
+    image: "https://i.pinimg.com/736x/1b/d2/99/1bd299d6c7cd65468be72794721c9efd.jpg",
+    description: "Naruto clássico. Bem detalhado.",
     rating: 4.4,
     reviewsCount: 143
   }
