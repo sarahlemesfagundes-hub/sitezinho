@@ -102,11 +102,11 @@
   },
   {
     id: 12,
-    name: "Kratos - God of War Ragnarök",
-    category: "Games",
+    name: "Inuyasha",
+    category: "Anime",
     price: 549.00,
-    image: "https://images.unsplash.com/photo-1509248961158-e54f6932459c?w=400&h=400&fit=crop",
-    description: "Kratos com o Machado Leviatã e escudo. Escala premium, detalhes de cicatrizes e texturas realistas.",
+    image: "https://i.pinimg.com/736x/9f/e1/54/9fe154d4ae18c49eb3429c53fe119ca2.jpg",
+    description: "Inuyasha com katana. Escala premium, detalhes de cicatrizes e texturas realistas.",
     rating: 4.9,
     reviewsCount: 72
   },
